@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "IndieFlower";
+  src: url("../fonts/Indie_Flower/IndieFlower-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: #333;
+  font-family: "IndieFlower", cursive;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 3rem;
+  margin: 3rem auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2em;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
